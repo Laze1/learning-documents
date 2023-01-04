@@ -33,7 +33,7 @@ len = 240 + 16 + 8 > 255 (not ok)
 
 2. Phase 1: 在车辆和device中发起配对流程。车辆被用户设置为配对模式（在车内UI中，可选。需要手机端提供一个配对的UI。输入Pairing password，可以由用户输入，或者在安装了Vehicle OEM app的情况下，直接调用API输入。然后手机端会开启一个时钟，判断配对流程是否超时）或者是在没有车主设备配对成功时在NFC读卡器控制台上选择framework AID
 
-![Phase 0/1: Preparation/Initiation](phase1.png)
+![Phase 0/1: Preparation/Initiation](phase.png)
 
 3. Phase 2: 和NFC reader的第一次会话，由手机端的DK_FW执行。由两次NFC的近车通讯组成，第一次是协商协议版本（SPAKE2+协议版本/DK applet版本），由车端决定版本协商结果。不通过则会断开连接。执行SPAKE2+创建安全通道并且传输钥匙创建需要的数据给到device，车端发起select指令，device返回版本号。第二次会在device中已经创建DK后执行。提供钥匙创建证明和证书链给到车端。车端会读取钥匙数据并进行认证，成功后则会保存DPK。（DK_FW有不同的AID？？）
 >在以SE为中心的应用实现模型中（比如通过APP也可以模拟CCC DK_FW），DK_FW可以在收到车端创建钥匙的必要数据后暂时不校验VPK，可以在Endpoint创建时去校验。同样对VPK的校验也有两种：①通过Vhehicle OEM CA证书去校验②通过Device OEM CA去校验。第二次会话不需要重新创建安全通道，直接使用之前计算得到的K/SK/CK进行通信
