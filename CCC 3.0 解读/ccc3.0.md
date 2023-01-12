@@ -43,6 +43,8 @@ len = 240 + 16 + 8 > 255 (not ok)
 4. Phase 3: 和NFC reader的第二次会话，车辆配置车主device是否必须从车辆 OEM 服务器或车辆在线获取防盗认证token。如果配置了在线获取，车主防盗认证token不会在当前阶段通过NFC reader传输，而是在车主配对流程中或者配对后通过owner device OEM服务器向vehicle OEM服务器发起的Key Tracking请求/响应来传输
 >此次会话成功后，车主device会发送一个异步的消息去注册车主钥匙到KTS（Key Track Request），不建议由车辆去发起，可能会产生竞争。如果车端也配置了需要发起Key Track Request。那么在车端先手袋Key Track Response时，不需要校验device收到的回复。
 
+![Phase 3: Second NFC Session](phase3.png)
+
 5. Phase 4: 配对流程结束，该步骤可选。主要是用于从车厂服务器/KTS中去获取immo token的场景
 >如果不配置KTS，那么不需要此步骤。
 
