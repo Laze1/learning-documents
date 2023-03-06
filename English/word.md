@@ -44,3 +44,21 @@
 * `typical` 典型的;特有的
 * `compare` 比较，对照；比得上；把..比作
 
+#### 2023.3.6
+
+* `rubbish` 垃圾；废物
+* `cause` 引起；原因；起因；事业
+* `anyway` 总之，不管怎样
+* `fold` 折叠
+* `classic` 经典的，古典的
+* `disabled` 有残疾的；丧失能力的
+* `while` 当...的时候；一会儿
+* `journey` 旅行，旅程
+* `communicate` 交流；沟通；传达
+* `training` 培训
+* `voice` 嗓音；表达，吐露
+* `hurry` 赶紧，赶快
+* `certain` 确定的，肯定的；某些的，某个的
+* `regard` 把..看作；问候
+* `especially` 特别；尤其
+* 
