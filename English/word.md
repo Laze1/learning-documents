@@ -61,4 +61,32 @@
 * `certain` 确定的，肯定的；某些的，某个的
 * `regard` 把..看作；问候
 * `especially` 特别；尤其
-* 
+
+#### 2023.3.7
+
+* `neither` （两者）都不；也不
+* `come up with` 想出，提出；追上，赶上；
+* `blind` 瞎的，失明的
+* `excited` 激动的，兴奋的，受刺激的，紧张不安的
+* `madam` 女士
+* `hate` 讨厌，恨
+* `wheel` 车轮；轮子
+* `hurry` 赶紧，赶快
+* `finger` 手指
+* `clever` 聪明的，伶俐的
+* `give away` 赠送；分发；泄漏；出卖
+* `lend` 借出
+* `volunteer` 志愿者
+* `cheer` 欢呼，喝彩
+* `hand out` 分发
+* `broken` 坏的，出毛病的，破损的
+* `kindness` 善意，好意；善举
+* `imagine` 想象；设想；猜测
+* `rise` 上升；上涨
+* `rainstorm` 暴风雨
+* `alarm` 惊恐，忧虑，担心；警报；闹铃；使恐惧；
+* `go off` 突发巨响；爆炸；停止运作
+* `heavily` 很大程度上；大量地；沉重地；悲伤的；
+* `suddenly` 突然的
+* `strange` 奇怪的，异常的；陌生的；不熟悉的
+* ``
